@@ -1,0 +1,80 @@
+body {
+    background-color: #f2f4f4;
+}
+header .container h2 {
+    font-size: 2.5em;
+    font-weight: lighter;
+    color: #DAD7CD;
+    text-align: center;
+}
+header .container p {
+    font-size: 1.2em;
+    font-weight: lighter;
+    color: #DAD7CD;
+    text-align: center;
+}
+header {
+    padding: 20px 0;
+    background-color: #3A5A40;
+}
+#destaque {
+    text-align: center;
+    padding: 25vh 0;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,1)), url("img/cafe.jpg"); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #DAD7CD;
+    font-size: 3em !important;
+}
+#destaque h1{
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+#menu{
+    padding: 30px 0;
+}
+#menu .col{
+    padding: 15px;
+    height: 50vh;
+}
+.imagem{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+}
+.imagem img {
+    width: 100%;
+    display: block;
+}
+#menu h3 {
+    text-align: center;
+    margin-top: 20px;
+} 
+#contato {
+    height: 40vh;
+}
+#contato h2 {
+    text-align: center;
+}
+#contato h5 {
+    margin-top: 20px;
+    text-align: center;
+}
+#contato .container .row {
+    margin-top: 20px;
+}
+#contato .cntt{
+    background-color: #3A5A40;
+}
+footer {
+    text-align: center;
+    padding: 80px 0;
+    background-color: #3A5A40;
+    color: #DAD7CD;
+    font-weight: lighter;
+}
+footer h2, footer h5 {
+    font-weight: lighter;
+}
